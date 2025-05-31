@@ -37,7 +37,7 @@ const Index = () => {
           <div className="text-center space-y-8">
             <div className="space-y-4">
               <h1 className="text-6xl md:text-8xl font-bold text-white mb-4 animate-pulse">
-                Vibe<span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-yellow-400">Check</span>
+                Vibe<span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-yellow-400">Alchemy</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
                 When the party mood dies, let the crowd's voice guide the vibe! 
@@ -71,7 +71,7 @@ const Index = () => {
               className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-12 py-6 text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl"
             >
               <Mic className="w-6 h-6 mr-3" />
-              Start VibeCheck
+              Start VibeAlchemy
             </Button>
           </div>
         ) : isRecording ? (
